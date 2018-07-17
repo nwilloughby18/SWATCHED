@@ -1,23 +1,43 @@
 {
-  "name": "Cocoon",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "color-thief",
+  "version": "2.0.2",
+  "author": {
+    "name": "Lokesh Dhakar",
+    "email": "lokesh.dhakar@gmail.com",
+    "url": "http://lokeshdhakar.com/"
   },
-  "author": "pharaohlab",
-  "license": "ISC",
-  "dependencies": {},
+  "description": "Get the dominant color or color palette from an image.",
+  "keywords": [
+    "color",
+    "palette",
+    "sampling",
+    "image",
+    "picture",
+    "photo",
+    "canvas"
+  ],
+  "homepage": "http://lokeshdhakar.com/projects/color-thief/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lokesh/color-thief.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lokesh/color-thief/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/lokesh/color-thief/master/LICENSE/"
+    }
+  ],
+  "main": "dist/color-thief.min.js",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-cli": "^1.4.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-livereload": "^3.8.1",
-    "gulp-ruby-sass": "^2.1.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^3.0.0",
-    "livereload": "^0.6.2"
-  },
-  "description": "Cocoon - Portfolio"
+    "grunt": "~1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-uglify": "~2.0.0",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-jscs": "^1.8.0",
+    "grunt-contrib-jshint": "^0.11.2"
+  }
 }
